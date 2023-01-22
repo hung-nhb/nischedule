@@ -1,5 +1,46 @@
 .App {
   text-align: center;
+  height: 100vh;
+}
+.App .login {
+  background-color: #ffddbf;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  height: 100%;
+}
+.App .login .title {
+  color: #F2796B;
+}
+.App .login .email {
+  background-color: white;
+  margin-bottom: 20px;
+}
+.App .login .alternative {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+.App .main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.App .main .general {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.App .main .general .monthcell {
+  height: 12.5vw;
+}
+.App .main .general .appointment {
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.App .main .detail {
+  overflow: scroll;
 }
 
 .App-logo {
@@ -12,7 +53,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +76,5 @@
     transform: rotate(360deg);
   }
 }
+
+/*# sourceMappingURL=App.css.map */

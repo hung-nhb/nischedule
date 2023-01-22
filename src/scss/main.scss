@@ -1,0 +1,24 @@
+.main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    .general {
+        margin-top: 60px;
+        margin-bottom: 10px;
+
+        .monthcell {
+            height: calc(100vw/8);
+        }
+
+        .appointment {
+            height: 20px;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    .detail {
+        overflow: scroll;
+    }
+}

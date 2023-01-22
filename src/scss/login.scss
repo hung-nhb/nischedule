@@ -1,0 +1,26 @@
+$background: #ffddbf;
+$primary: #F2796B;
+
+.login {
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    height: 100%;
+
+    .title {
+        color: $primary;
+    }
+
+    .email {
+        background-color: white;
+        margin-bottom: 20px;
+    }
+
+    .alternative {
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+    }
+}
